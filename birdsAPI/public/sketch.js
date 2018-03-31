@@ -14,7 +14,7 @@ function setup() {
 		createElement('h1', birds[i].family);
 		var members = birds[i].members;
 		for(var j = 0; j < members.length; j++) {
-			createDiv(members[j, 0]);
+			createElement('p', members[j]);
 		}
 	}
 	// createP(bird);
